@@ -118,19 +118,11 @@ st.pyplot(plt)
 
 st.subheader("Conclusions")
 st.write("""
-From the analysis and model evaluation, we can conclude the following:
-
-1. **Model Performance:**
-   - The linear regression model's performance is evaluated using the Mean Squared Error (MSE) and R² score. The MSE quantifies the average squared difference between predicted and actual values, while the R² score indicates the proportion of variance explained by the model. A higher R² score means a better fit of the model to the data.
-   
-2. **Feature Correlations:**
-   - The correlation heatmap shows the relationships between different features. Strong correlations between certain features (e.g., s1 and s2) might indicate that some variables could be more predictive of diabetes progression than others.
-   
-3. **Prediction Insights:**
-   - The scatter plot comparing predicted vs actual values shows that while the model generally performs well, there are still some deviations. The regression line provides insight into the general trend, indicating that the model captures the overall pattern but might not be perfect for every prediction.
-
-4. **Interactive Analysis:**
-   - The interactive feature allows users to explore the relationship between individual features (such as BMI or age) and the target variable. This can help understand which features most influence diabetes progression and give a deeper insight into the data.
-
-In conclusion, this analysis serves as an initial exploration of the diabetes progression dataset, highlighting key patterns and providing insights into the relationships between the features and the target variable.
+Several important conclusions are drawn from the linear regression model's study and assessment. The model's ability to forecast the course of diabetes is demonstrated by its performance as measured by Mean Squared Error (MSE) and R2 score. 
+MSE measures the average squared discrepancies between actual and projected values, while R2 indicates the percentage of variance that the model can account for. A better fit to the data is indicated by a higher R2 value. 
+Strong correlations (such as those between s1 and s2) imply that some factors may be more predictive than others. 
+         
+      A correlation heatmap illustrates the links between characteristics. Although certain variances point to areas for improvement, a scatter plot of anticipated against actual values shows that the model largely catches the main trend. 
+Furthermore, interactive tools make it possible to thoroughly examine personal characteristics like age and BMI in order to comprehend how they affect the course of diabetes. 
+All things considered, the analysis offers a perceptive summary of the dataset, revealing trends and emphasizing the connections between the target variable and the attributes.
 """)
